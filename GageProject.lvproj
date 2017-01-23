@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ConfigureAquisition.vi" Type="VI" URL="../ConfigureAquisition.vi"/>
 		<Item Name="Oscilloscope.vi" Type="VI" URL="../Oscilloscope.vi"/>
+		<Item Name="SequenceAquire.vi" Type="VI" URL="../SequenceAquire.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="CsLV.dll" Type="Document" URL="/&lt;userlib&gt;/Gage/CsLV.dll"/>
