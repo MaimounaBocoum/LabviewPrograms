@@ -15,6 +15,7 @@
 		<Item Name="DFT_noisewaveform.vi" Type="VI" URL="../DFT_noisewaveform.vi"/>
 		<Item Name="LoadWaveform.vi" Type="VI" URL="../LoadWaveform.vi"/>
 		<Item Name="PhaseModulationExample.vi" Type="VI" URL="../PhaseModulationExample.vi"/>
+		<Item Name="PulseGeneration.vi" Type="VI" URL="../PulseGeneration.vi"/>
 		<Item Name="remotecontrol.vi" Type="VI" URL="../remotecontrol.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -24,8 +25,12 @@
 				<Item Name="tkafg3k Configure AM Source.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure AM Source.vi"/>
 				<Item Name="tkafg3k Configure Arb Frequency.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Arb Frequency.vi"/>
 				<Item Name="tkafg3k Configure Arbitrary Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Arbitrary Waveform.vi"/>
+				<Item Name="tkafg3k Configure Burst Enabled.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Burst Enabled.vi"/>
+				<Item Name="tkafg3k Configure Burst Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Burst Mode.vi"/>
+				<Item Name="tkafg3k Configure External Trig Slope.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure External Trig Slope.vi"/>
 				<Item Name="tkafg3k Configure FM Internal By Chan.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure FM Internal By Chan.vi"/>
 				<Item Name="tkafg3k Configure FM Source.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure FM Source.vi"/>
+				<Item Name="tkafg3k Configure Internal Trigger Rate.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Internal Trigger Rate.vi"/>
 				<Item Name="tkafg3k Configure Operation Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Operation Mode.vi"/>
 				<Item Name="tkafg3k Configure Output Enabled.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Output Enabled.vi"/>
 				<Item Name="tkafg3k Configure Output Mode By Chan.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Output Mode By Chan.vi"/>
@@ -34,7 +39,10 @@
 				<Item Name="tkafg3k Configure PM Internal By Chan.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure PM Internal By Chan.vi"/>
 				<Item Name="tkafg3k Configure PM Source.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure PM Source.vi"/>
 				<Item Name="tkafg3k Configure Standard Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Standard Waveform.vi"/>
+				<Item Name="tkafg3k Configure Trigger Output Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Trigger Output Mode.vi"/>
+				<Item Name="tkafg3k Configure Trigger Source.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Trigger Source.vi"/>
 				<Item Name="tkafg3k Create Arbitrary Waveform by Slot.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Create Arbitrary Waveform by Slot.vi"/>
+				<Item Name="tkafg3k Force Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Force Trigger.vi"/>
 				<Item Name="tkafg3k Get Arbitrary Waveform by Slot.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Get Arbitrary Waveform by Slot.vi"/>
 				<Item Name="tkafg3k Initialize With Options.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Initialize With Options.vi"/>
 				<Item Name="tkafg3k Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Initialize.vi"/>
