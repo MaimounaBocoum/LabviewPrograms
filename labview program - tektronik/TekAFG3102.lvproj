@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ColoredNoiseGeneration_example.vi" Type="VI" URL="../ColoredNoiseGeneration_example.vi"/>
+		<Item Name="CreneauGeneration.vi" Type="VI" URL="../CreneauGeneration.vi"/>
 		<Item Name="DecorrelationFunction.vi" Type="VI" URL="../DecorrelationFunction.vi"/>
 		<Item Name="DFT_noisewaveform.vi" Type="VI" URL="../DFT_noisewaveform.vi"/>
 		<Item Name="LoadWaveform.vi" Type="VI" URL="../LoadWaveform.vi"/>
@@ -22,13 +23,15 @@
 				<Item Name="tkafg3k Clear Arbitrary Waveform by Slot.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Clear Arbitrary Waveform by Slot.vi"/>
 				<Item Name="tkafg3k Clear Arbitrary Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Clear Arbitrary Waveform.vi"/>
 				<Item Name="tkafg3k Close.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Close.vi"/>
+				<Item Name="tkafg3k Configure AM Enabled.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure AM Enabled.vi"/>
+				<Item Name="tkafg3k Configure AM Internal.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure AM Internal.vi"/>
 				<Item Name="tkafg3k Configure AM Source.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure AM Source.vi"/>
-				<Item Name="tkafg3k Configure Arb Frequency.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Arb Frequency.vi"/>
-				<Item Name="tkafg3k Configure Arbitrary Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Arbitrary Waveform.vi"/>
 				<Item Name="tkafg3k Configure Burst Enabled.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Burst Enabled.vi"/>
 				<Item Name="tkafg3k Configure Burst Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Burst Mode.vi"/>
 				<Item Name="tkafg3k Configure External Trig Slope.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure External Trig Slope.vi"/>
+				<Item Name="tkafg3k Configure FM Enabled.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure FM Enabled.vi"/>
 				<Item Name="tkafg3k Configure FM Internal By Chan.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure FM Internal By Chan.vi"/>
+				<Item Name="tkafg3k Configure FM Internal.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure FM Internal.vi"/>
 				<Item Name="tkafg3k Configure FM Source.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure FM Source.vi"/>
 				<Item Name="tkafg3k Configure Internal Trigger Rate.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Internal Trigger Rate.vi"/>
 				<Item Name="tkafg3k Configure Operation Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/tkafg3k/tkafg3k.llb/tkafg3k Configure Operation Mode.vi"/>
@@ -111,7 +114,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="tkafg3k_32.dll" Type="Document" URL="tkafg3k_32.dll">
+			<Item Name="tkafg3k_64.dll" Type="Document" URL="tkafg3k_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
