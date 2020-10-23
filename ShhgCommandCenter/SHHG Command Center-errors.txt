@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="SHHG Command Center Errors" displayname="SHHG Command Center Errors">
+</nifamily>
+</nicomment>
+<nierror code="5002">
+Device Session Hash Missmatch
+</nierror>
+</nidocument>

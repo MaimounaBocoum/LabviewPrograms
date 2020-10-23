@@ -1,0 +1,3 @@
+help folder path
+
+C:\Users\toto\Documents\IC Imaging Control 3.3
