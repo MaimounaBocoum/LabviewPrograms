@@ -41,32 +41,33 @@
 		<Item Name="TransferSegments.vi" Type="VI" URL="../TransferSegments.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="CsLv_AbortCapture.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_AbortCapture.vi"/>
-				<Item Name="CsLv_BoardNameToType.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_BoardNameToType.vi"/>
-				<Item Name="CsLv_Capture.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_Capture.vi"/>
-				<Item Name="CsLv_Commit.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_Commit.vi"/>
-				<Item Name="CsLv_CommitOnChange.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_CommitOnChange.vi"/>
-				<Item Name="CsLv_ConfigureAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_ConfigureAcquisition.vi"/>
-				<Item Name="CsLv_ConfigureChannelEx.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_ConfigureChannelEx.vi"/>
+				<Item Name="CsLV.dll" Type="Document" URL="/&lt;userlib&gt;/Gage/CsLV.dll"/>
+				<Item Name="CsLv_AbortCapture.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_AbortCapture.vi"/>
+				<Item Name="CsLv_BoardNameToType.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_BoardNameToType.vi"/>
+				<Item Name="CsLv_Capture.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_Capture.vi"/>
+				<Item Name="CsLv_Commit.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_Commit.vi"/>
+				<Item Name="CsLv_CommitOnChange.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_CommitOnChange.vi"/>
+				<Item Name="CsLv_ConfigureAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_ConfigureAcquisition.vi"/>
+				<Item Name="CsLv_ConfigureChannelEx.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_ConfigureChannelEx.vi"/>
 				<Item Name="CsLv_ConfigureTimeStamp.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_ConfigureTimeStamp.vi"/>
-				<Item Name="CsLv_ConfigureTriggerEx.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_ConfigureTriggerEx.vi"/>
-				<Item Name="CsLv_ForceCapture.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_ForceCapture.vi"/>
-				<Item Name="CsLv_FreeAllSystems.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_FreeAllSystems.vi"/>
-				<Item Name="CsLv_FreeSystem.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_FreeSystem.vi"/>
-				<Item Name="CsLv_GetErrorString.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetErrorString.vi"/>
-				<Item Name="CsLv_GetSampleInfo.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetSampleInfo.vi"/>
-				<Item Name="CsLv_GetSystem.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetSystem.vi"/>
-				<Item Name="CsLv_GetSystemCaps.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetSystemCaps.vi"/>
-				<Item Name="CsLv_GetSystemInfo.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetSystemInfo.vi"/>
-				<Item Name="CsLv_GetSystemName.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetSystemName.vi"/>
-				<Item Name="CsLv_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_Initialize.vi"/>
-				<Item Name="CsLv_QueryAcquisitionParameters.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_QueryAcquisitionParameters.vi"/>
-				<Item Name="CsLv_QueryChannelParameters.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_QueryChannelParameters.vi"/>
-				<Item Name="CsLv_QueryStatus.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_QueryStatus.vi"/>
+				<Item Name="CsLv_ConfigureTriggerEx.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_ConfigureTriggerEx.vi"/>
+				<Item Name="CsLv_ForceCapture.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_ForceCapture.vi"/>
+				<Item Name="CsLv_FreeAllSystems.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_FreeAllSystems.vi"/>
+				<Item Name="CsLv_FreeSystem.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_FreeSystem.vi"/>
+				<Item Name="CsLv_GetErrorString.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_GetErrorString.vi"/>
+				<Item Name="CsLv_GetSampleInfo.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_GetSampleInfo.vi"/>
+				<Item Name="CsLv_GetSystem.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_GetSystem.vi"/>
+				<Item Name="CsLv_GetSystemCaps.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_GetSystemCaps.vi"/>
+				<Item Name="CsLv_GetSystemInfo.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_GetSystemInfo.vi"/>
+				<Item Name="CsLv_GetSystemName.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_GetSystemName.vi"/>
+				<Item Name="CsLv_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_Initialize.vi"/>
+				<Item Name="CsLv_QueryAcquisitionParameters.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_QueryAcquisitionParameters.vi"/>
+				<Item Name="CsLv_QueryChannelParameters.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_QueryChannelParameters.vi"/>
+				<Item Name="CsLv_QueryStatus.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_QueryStatus.vi"/>
 				<Item Name="CsLv_ResetTimeStamp.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_ResetTimeStamp.vi"/>
-				<Item Name="CsLv_Transfer8.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_Transfer8.vi"/>
-				<Item Name="CsLv_Transfer16.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_Transfer16.vi"/>
-				<Item Name="CsLv_Transfer32.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_Transfer32.vi"/>
+				<Item Name="CsLv_Transfer8.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_Transfer8.vi"/>
+				<Item Name="CsLv_Transfer16.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_Transfer16.vi"/>
+				<Item Name="CsLv_Transfer32.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv.llb/CsLv_Transfer32.vi"/>
 				<Item Name="CsLv_TransferTimeStamp.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_TransferTimeStamp.vi"/>
 				<Item Name="CsTool-AbortCapture.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsTool.llb/CsTool-AbortCapture.vi"/>
 				<Item Name="CsTool-BoardNameToType.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsTool.llb/CsTool-BoardNameToType.vi"/>
@@ -368,52 +369,22 @@
 			<Item Name="CsEx_DiskStreamInitialize.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsEx/CsEx_DiskStreamInitialize.vi"/>
 			<Item Name="CsEx_DiskStreamStart.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsEx/CsEx_DiskStreamStart.vi"/>
 			<Item Name="CsEx_DiskStreamStop.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsEx/CsEx_DiskStreamStop.vi"/>
-			<Item Name="CsLV.dll" Type="Document" URL="../libraries/CsLV.dll"/>
-			<Item Name="CsLv_AbortCapture.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_AbortCapture.vi"/>
-			<Item Name="CsLv_BoardNameToType.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_BoardNameToType.vi"/>
-			<Item Name="CsLv_Capture.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_Capture.vi"/>
-			<Item Name="CsLv_Commit.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_Commit.vi"/>
-			<Item Name="CsLv_CommitOnChange.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_CommitOnChange.vi"/>
 			<Item Name="CsLv_ConfigureAcquisition.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsLv/CsLv_ConfigureAcquisition.vi"/>
-			<Item Name="CsLv_ConfigureAcquisition.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_ConfigureAcquisition.vi"/>
-			<Item Name="CsLv_ConfigureChannelEx.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_ConfigureChannelEx.vi"/>
-			<Item Name="CsLv_ConfigureTriggerEx.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_ConfigureTriggerEx.vi"/>
 			<Item Name="CsLv_FreeAllSystems.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsLv/CsLv_FreeAllSystems.vi"/>
-			<Item Name="CsLv_FreeAllSystems.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_FreeAllSystems.vi"/>
-			<Item Name="CsLv_FreeSystem.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_FreeSystem.vi"/>
 			<Item Name="CsLv_GetErrorString.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsLv/CsLv_GetErrorString.vi"/>
-			<Item Name="CsLv_GetErrorString.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_GetErrorString.vi"/>
 			<Item Name="CsLv_GetExtendedOptions.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsLv/CsLv_GetExtendedOptions.vi"/>
-			<Item Name="CsLv_GetSystem.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_GetSystem.vi"/>
 			<Item Name="CsLv_GetSystemCaps.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsLv/CsLv_GetSystemCaps.vi"/>
-			<Item Name="CsLv_GetSystemCaps.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_GetSystemCaps.vi"/>
-			<Item Name="CsLv_GetSystemInfo.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_GetSystemInfo.vi"/>
-			<Item Name="CsLv_GetSystemName.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_GetSystemName.vi"/>
-			<Item Name="CsLv_Initialize.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_Initialize.vi"/>
-			<Item Name="CsLv_QueryAcquisitionParameters.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_QueryAcquisitionParameters.vi"/>
 			<Item Name="CsLv_QueryChannelParameters.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsLv/CsLv_QueryChannelParameters.vi"/>
-			<Item Name="CsLv_QueryChannelParameters.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_QueryChannelParameters.vi"/>
-			<Item Name="CsLv_QueryStatus.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_QueryStatus.vi"/>
 			<Item Name="CsLv_Transfer8.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsLv/CsLv_Transfer8.vi"/>
-			<Item Name="CsLv_Transfer8.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_Transfer8.vi"/>
 			<Item Name="CsLv_Transfer16.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsLv/CsLv_Transfer16.vi"/>
-			<Item Name="CsLv_Transfer16.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_Transfer16.vi"/>
 			<Item Name="CsLv_Transfer32.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsLv/CsLv_Transfer32.vi"/>
-			<Item Name="CsLv_Transfer32.vi" Type="VI" URL="../libraries/CsLv.llb/CsLv_Transfer32.vi"/>
 			<Item Name="CsTool-AbortCapture.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-AbortCapture.vi"/>
-			<Item Name="CsTool-AbortCapture.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-AbortCapture.vi"/>
-			<Item Name="CsTool-BoardNameToType.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-BoardNameToType.vi"/>
 			<Item Name="CsTool-Capture.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-Capture.vi"/>
-			<Item Name="CsTool-Capture.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-Capture.vi"/>
 			<Item Name="CsTool-Commit.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-Commit.vi"/>
-			<Item Name="CsTool-Commit.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-Commit.vi"/>
 			<Item Name="CsTool-ConfigureAcquisition.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-ConfigureAcquisition.vi"/>
-			<Item Name="CsTool-ConfigureAcquisition.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-ConfigureAcquisition.vi"/>
 			<Item Name="CsTool-ConfigureChannelArray.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-ConfigureChannelArray.vi"/>
-			<Item Name="CsTool-ConfigureChannelArray.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-ConfigureChannelArray.vi"/>
 			<Item Name="CsTool-ConfigureTimeStamp.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-ConfigureTimeStamp.vi"/>
 			<Item Name="CsTool-ConfigureTriggerArray.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-ConfigureTriggerArray.vi"/>
-			<Item Name="CsTool-ConfigureTriggerArray.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-ConfigureTriggerArray.vi"/>
 			<Item Name="CsTool-ConvertFromSigHeader.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-ConvertFromSigHeader.vi"/>
 			<Item Name="CsTool-ConvertToSigHeader.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-ConvertToSigHeader.vi"/>
 			<Item Name="CsTool-ErrorHandler.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-ErrorHandler.vi"/>
@@ -426,20 +397,15 @@
 			<Item Name="CsTool-GetSystem.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-GetSystem.vi"/>
 			<Item Name="CsTool-GetSystem.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-GetSystem.vi"/>
 			<Item Name="CsTool-GetSystemInfo.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-GetSystemInfo.vi"/>
-			<Item Name="CsTool-GetSystemInfo.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-GetSystemInfo.vi"/>
 			<Item Name="CsTool-GetSystemName.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-GetSystemName.vi"/>
-			<Item Name="CsTool-GetSystemName.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-GetSystemName.vi"/>
 			<Item Name="CsTool-Initialize.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-Initialize.vi"/>
 			<Item Name="CsTool-Initialize.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-Initialize.vi"/>
 			<Item Name="CsTool-QueryAcquisitionParameters.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-QueryAcquisitionParameters.vi"/>
-			<Item Name="CsTool-QueryAcquisitionParameters.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-QueryAcquisitionParameters.vi"/>
 			<Item Name="CsTool-QueryChannelParameters.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-QueryChannelParameters.vi"/>
 			<Item Name="CsTool-QueryStatus.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-QueryStatus.vi"/>
-			<Item Name="CsTool-QueryStatus.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-QueryStatus.vi"/>
 			<Item Name="CsTool-QueryTriggerParameters.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-QueryTriggerParameters.vi"/>
 			<Item Name="CsTool-ResetTimeStamp.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-ResetTimeStamp.vi"/>
 			<Item Name="CsTool-Transfer.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-Transfer.vi"/>
-			<Item Name="CsTool-Transfer.vi" Type="VI" URL="../libraries/CsTool.llb/CsTool-Transfer.vi"/>
 			<Item Name="CsTool-TransferEx8.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-TransferEx8.vi"/>
 			<Item Name="CsTool-TransferEx16.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-TransferEx16.vi"/>
 			<Item Name="CsTool-TransferEx32.vi" Type="VI" URL="../CompuScope LabVIEW SDK/Library/CsTool/CsTool-TransferEx32.vi"/>
