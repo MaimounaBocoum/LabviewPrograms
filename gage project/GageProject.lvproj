@@ -43,6 +43,7 @@
 				<Item Name="CsLv_FreeAllSystems.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_FreeAllSystems.vi"/>
 				<Item Name="CsLv_FreeSystem.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_FreeSystem.vi"/>
 				<Item Name="CsLv_GetErrorString.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetErrorString.vi"/>
+				<Item Name="CsLv_GetSampleInfo.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetSampleInfo.vi"/>
 				<Item Name="CsLv_GetSystem.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetSystem.vi"/>
 				<Item Name="CsLv_GetSystemCaps.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetSystemCaps.vi"/>
 				<Item Name="CsLv_GetSystemInfo.vi" Type="VI" URL="/&lt;userlib&gt;/Gage/CsLv/CsLv_GetSystemInfo.vi"/>
